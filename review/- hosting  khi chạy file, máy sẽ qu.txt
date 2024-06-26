@@ -1,0 +1,20 @@
+- hosting : khi chạy file, máy sẽ quét toàn bộ file và đọc các biến được khai báo với từ khóa var lên đầu, tuy nhiên sẽ không được gán giá trị.
+- var : có thể khai báo lại | có thể gán lại giá trị | có cơ chế hosting | phạm vi global.
+- let : có thể gán lại giá trị |  ko thể khai báo lại | phạm vi scope.
+- const : ko thể gán lại giá trị |  ko thể khai báo lại | phạm vi scope.
+- temporal dead zone(TDZ) : vùng chết tạm thời
+var ko có TDZ
+các từ khóa let và const vẫn có hosting nhưng nó sẽ nằm trong TDZ. Nên khi ta dùng biến trước khi khai báo thì sẽ lỗi
+__________________________________
+-tham số là giá trị được tạo khi hàm được khai báo
+-đối số là giá trị được truyền vào khi hàm được gọi	
+-hàm bắt buộc phải có return để trả về giá trị của hàm nếu ko có sẽ bị undefine
+-Arrow Function khác với function thường ở chỗ:
+		+không có ngữ cảnh (ko có từ khóa this)
+		+ko có hosting
+__________________________________
+Destructuring : dùng để truy xuất phần tử trong mảng hoặc object 1 cách nhanh chóng giúp code dễ nhìn dễ đọc dễ bảo trì hơn.
+Rest Parameter : sử dụng trong trường hợp không xác định trước số lượng đối số truyền vào trong hàm. Rồi gom các tham số vào 1 mảng.
+Spread operator :dung để thuận tiện cho việc call back mảng và object(dùng để nối chuỗi, nối object)
+__________________________________
+* một số hàm nâng cao của mảng.

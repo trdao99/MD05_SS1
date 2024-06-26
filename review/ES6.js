@@ -1,0 +1,11 @@
+var username = "nguyenvanA"; 
+var username = "nguyenVanB";
+console.log(age);
+var age = 10;
+let gender = "nam";
+const pi = Math.PI;
+const male = 0;
+const female = 1;
+const gay = 3;
+console.log(username);
+console.log(pi);
